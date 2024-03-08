@@ -1,0 +1,60 @@
+$roxo-escuro: #883AE1;
+$roxo-claro: #E6D6FC;
+$bege-acizentado: #E5EAF0;
+$bege: #FAFAF9;
+$branco: #FFFFFF;
+$chumbo: #20293A;
+$cinza: #6C727F;
+
+body {
+    font-family: "Sora", sans-serif !important;
+    background-color: $bege !important;
+}
+
+#card {
+    width: 368px;
+    margin: 164px auto;
+    background-color: $branco !important;
+}
+
+#card_image {
+    width: 336px;
+    height: 152px;
+    margin: 1rem 1rem 0 1rem;
+}
+
+#card_tag {
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 1rem;
+    padding: 6px 16px 6px 16px;
+    color: $roxo-escuro;
+    background-color: $roxo-claro;
+}
+
+#card_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: $chumbo !important;
+    margin: 16px 16px 6px 16px;
+}
+
+#card_description {
+    font-size: 14px;
+    font-weight: 400;
+    color: $cinza;
+    margin: 0 16px 20px 16px;
+}
+
+#card_line {
+    border-top: solid $bege-acizentado 1.8px;
+    margin: 0;
+}
+
+#card_footer {
+    font-size: 12px;
+    font-weight: 400;
+    color: $cinza;
+    padding-bottom: 20px;
+    margin: 20px 16px 0px 16px;
+}
